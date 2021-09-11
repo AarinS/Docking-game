@@ -25,11 +25,11 @@ function draw() {
   if(!hasDocked){
     spacecraft.x = spacecraft.x + random(-1,1);
     if(keyDown("LEFT_ARROW")){
-      spacecraft.addImage(scImg4);
+      spacecraft.addImage(scImg3);
       spacecraft.x = spacecraft.x -1
     }
     if(keyDown("RIGHT_ARROW")){
-      spacecraft.addImage(scImg3);
+      spacecraft.addImage(scImg4);
       spacecraft.x = spacecraft.x + 1
     }
     if(keyDown("DOWN_ARROW")){
